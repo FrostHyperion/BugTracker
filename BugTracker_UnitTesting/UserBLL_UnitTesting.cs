@@ -1,4 +1,3 @@
-using BugTracker.BLL;
 using BugTracker.DAL;
 using BugTracker.Data;
 using BugTracker.Models;
