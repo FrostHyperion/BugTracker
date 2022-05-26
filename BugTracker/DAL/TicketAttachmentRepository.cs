@@ -4,11 +4,11 @@ using BugTracker.Models;
 
 namespace BugTracker.DAL;
 
-    public class TicketAttachmentsRepository: IRepository<TicketAttachment>
+    public class TicketAttachmentRepository: IRepository<TicketAttachment>
     {
         private readonly ApplicationDbContext _context; //
 
-    public TicketAttachmentsRepository(ApplicationDbContext context)
+    public TicketAttachmentRepository(ApplicationDbContext context)
     {
         _context = context;
     }

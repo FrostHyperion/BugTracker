@@ -3,11 +3,11 @@ using BugTracker.Models;
 
 namespace BugTracker.DAL;
 
-public class TicketCommentsRepository : IRepository<TicketComment>
+public class TicketCommentRepository : IRepository<TicketComment>
 {
     private readonly ApplicationDbContext _context; //
 
-    public TicketCommentsRepository(ApplicationDbContext context)
+    public TicketCommentRepository(ApplicationDbContext context)
     {
         _context = context;
     }

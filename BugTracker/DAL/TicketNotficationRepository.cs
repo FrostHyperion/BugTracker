@@ -2,11 +2,11 @@ using BugTracker.Data;
 using BugTracker.Models;
 
 namespace BugTracker.DAL;
-public class TicketNotificationsRepository : IRepository<TicketNotification>
+public class TicketNotificationRepository : IRepository<TicketNotification>
 {
     private readonly ApplicationDbContext _context;
 
-    public TicketNotificationsRepository(ApplicationDbContext context)
+    public TicketNotificationRepository(ApplicationDbContext context)
     {
         _context = context;
     }

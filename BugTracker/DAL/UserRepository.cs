@@ -3,12 +3,12 @@ using BugTracker.Models;
 
 namespace BugTracker.DAL
 {
-    public class UsersRepository : IRepository<User>
+    public class UserRepository : IRepository<User>
     {
         private readonly ApplicationDbContext _context;
 
 
-        public UsersRepository(ApplicationDbContext context)
+        public UserRepository(ApplicationDbContext context)
         {
             _context = context;
         }

@@ -2,11 +2,11 @@ using BugTracker.Data;
 using BugTracker.Models;
 
 namespace BugTracker.DAL;
-    public class TicketHistoriesRepository : IRepository<TicketHistory>
+    public class TicketHistoryRepository : IRepository<TicketHistory>
 {
     private readonly ApplicationDbContext _context; //
 
-    public TicketHistoriesRepository(ApplicationDbContext context)
+    public TicketHistoryRepository(ApplicationDbContext context)
     {
         _context = context;
     }

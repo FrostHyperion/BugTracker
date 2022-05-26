@@ -4,11 +4,11 @@ using BugTracker.Models;
 
 namespace BugTracker.DAL;
 
-public class ProjectUsersRepository : IRepository<ProjectUser>
+public class ProjectUserRepository : IRepository<ProjectUser>
 {
     private readonly ApplicationDbContext _context; //
 
-    public ProjectUsersRepository(ApplicationDbContext context)
+    public ProjectUserRepository(ApplicationDbContext context)
     {
         _context = context;
     }
